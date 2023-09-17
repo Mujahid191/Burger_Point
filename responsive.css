@@ -1,0 +1,215 @@
+@media (max-width: 1400px) {
+    .center_burger{
+        transform: scale(0.8);
+        margin-top: -5.2rem;
+      }
+}
+@media (max-width: 1200px) {
+    .center_burger{
+        transform: scale(0.8);
+        margin-top: -3.5rem;
+      }
+      .er{
+        align-self: center;
+      }
+}
+@media (max-width: 991px) {
+    html {
+        font-size: 55% !important;
+      }
+      .top_bar{
+        position: relative;
+      }
+      .right_menu{
+        z-index: -1;
+        display: flex;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        margin-top: 7rem;
+        transition: 0.4s;
+        height: 0%;
+      }
+      .active{
+        height: 250px;
+      }
+      .Navbar{
+        padding-top: 2rem;
+        padding-left: 6rem !important;
+        flex-direction: column;
+        display: none;
+      }
+      .right_menu, .active .Navbar, .right_menu, .active .info_text{
+        display: block;
+      }
+      .info_text{
+        padding-bottom: 2rem;
+        display: none;
+      }
+      .navbar-toggler-icon{
+        align-self: center !important;
+        display: block;
+      }
+      .header{
+        flex-direction: column-reverse;
+        margin-top: -10rem;
+      }
+      .pa{
+        padding-top: 15px !important;
+      }
+      .al{
+        margin-top: 6rem !important;
+      }
+      .ar1{
+        width: 70%;
+      }
+      .ar{
+        text-align: center;
+      }
+      .header_text{
+        text-align: center;
+      }
+      .header_tag{
+        margin: 0% auto;
+      }
+      .ft{
+        margin-top: 10px !important;
+      }
+      .ft_right_text{
+        margin-top: 5rem;
+      }
+      .ft_img1{
+        width: 40%  !important;
+      }
+}
+@media (max-width: 767px) {
+  .bottle{
+    display: none;
+  }
+  .logo{
+    width: 80%;
+  }
+  .tables{
+    font-size: 2.5rem !important;
+    max-width: 70%;
+    margin: 0% auto !important;
+  }
+  .ft_right_text{
+    margin-top: 2rem;
+  }
+  .gb{
+    margin-top: 30px !important;
+  }
+  .footer_area{
+    text-align: center !important;
+  }
+  .gp1{
+    max-width: 95%;
+  }
+  .gbr{
+    margin-top: 2rem;
+    margin-right: 0%;
+  }
+}
+@media (max-width: 692px) {
+  html{
+    font-size: 50% !important;
+  }
+  .header{
+    margin-top: -1rem;
+  }
+  .active{
+    height: 235px;
+  }
+  .al{
+    margin-top: 40px !important;
+  }
+}
+@media (max-width: 575px){
+  html{
+    font-size: 42% !important;
+  }
+  .active{
+    height: 200px;
+  }
+  .right_menu{
+    margin-top: 7rem;
+  }
+  .logo{
+    margin-left: -4rem !important;
+  }
+  .al{
+    margin-top: 10px !important;
+  }
+}
+@media (max-width: 450px){
+  html{
+    font-size: 38% !important;
+  }
+  .active{
+    height: 184px;
+  }
+  .logo{
+    width: 60%;
+    margin-left: -4rem;
+  }
+  .navbar-toggler-icon{
+    padding: 10px !important;
+  }
+  .right_menu{
+    margin-top: 6.5rem;
+  }
+  .bl-t{
+    top: 9%;
+  }
+  .bl-t2 {
+    margin: 0 !important;
+  }
+}
+@media (max-width: 415px){
+  html{
+    font-size: 38% !important;
+  }
+  .active{
+    height: 190px;
+  }
+  .logo_area{
+    width: 60%;
+  }
+  .logo{
+    width: 100%;
+    margin-left: -3.5rem;
+  }
+}
+@media (max-width: 380px){
+  html{
+    font-size: 32% !important;
+  }
+  .navbar-toggler-icon{
+    margin-right: -1rem;
+  }
+  .active{
+    height: 170px;
+  }
+  .logo{
+    margin-left: -4rem !important;
+  }
+  .logo_area{
+    width: 60%;
+  }
+  .logo{
+    width: 100%;
+  }
+}
+@media (max-width: 350px){
+  html{
+    font-size: 28% !important;
+  }
+  .ah2{
+    font-size: 9rem;
+  }
+  .ah1{
+    padding: 8px 9px;
+  }
+}

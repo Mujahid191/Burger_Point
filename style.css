@@ -1,0 +1,273 @@
+/* Root Font */
+html {
+  font-size: 62.5% !important;
+}
+/* WEB Text colors */
+body{
+  overflow-x: hidden !important;
+}
+*{
+  transition: all 0.3s ease-in-out;
+  scroll-behavior: smooth !important;
+}
+.zp {
+  color: #3d2514;
+}
+.zs {
+  color: #ffffff;
+}
+.fb {
+  font-weight: bold;
+}
+.fp {
+  font-family: "Alfa Slab One", cursive;
+}
+.fs {
+  font-family: "Bebas Neue";
+}
+.ft {
+  font-family: "Montserrat", sans-serif;
+}
+.tu {
+  text-transform: uppercase;
+}
+/* Toggler Button setting */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='50' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  background-color: #3d2514 !important;
+  padding: 12px !important;
+  border-radius: 3px;
+  display: none;
+}
+.pa {
+  background-image: url(Images/hd-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 57px !important;
+  position: relative;
+}
+.top_bar{
+  z-index: 999 !important;
+  display: flex;
+  justify-content: space-between;
+}
+.right_menu{
+  text-align: end;
+  display: flex;
+  flex-direction: column-reverse !important;
+}
+.Navbar{
+  list-style: none;
+  display: flex;
+  margin-left: -10rem;
+  justify-content: end;
+}
+.info {
+  font-size: 1.6rem;
+}
+/* Navbar style */
+.nav-item{
+  margin-left: 1rem;
+}
+.nav-link {
+  font-size: 2rem;
+  color: #3d2514 !important;
+  letter-spacing: 1px;
+}
+/* Part A left side */
+.al {
+  margin-top: 16rem !important;
+  z-index: 99;
+}
+.ah1 {
+  font-size: 2.3rem;
+  border: 2px dashed #3d2514;
+  text-align: center;
+  padding: 10px 20px;
+}
+.ah2,
+.ah3 {
+  text-shadow: 2px 2px 3px white;
+}
+.ah2 {
+  font-size: 10.4rem;
+}
+.ah3 {
+  font-size: 5.6rem;
+  letter-spacing: 1.5px;
+}
+.ar1 {
+  margin-top: -2rem !important;
+  animation: blink 2s infinite;
+}
+.deal_burger{
+  animation: blink 2s infinite;
+}
+@keyframes blink {
+  0% {
+    scale: 1;
+  }
+  40%{
+    scale: 1.05;
+  }
+}
+/* Web Part B */
+.pb {
+  margin-top: 78px;
+}
+.bl,
+.br,
+.br2 {
+  position: relative;
+}
+.bl-t {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  letter-spacing: 2px;
+}
+.bl-t1 {
+  font-size: 2.5rem;
+}
+.bl-t2 {
+  font-size: 4.1rem;
+  margin: -10px 0px !important;
+}
+.br1-t1,
+.br1-t2,
+.br1-t3 {
+  position: absolute;
+}
+.br1-t1 {
+  top: 30px;
+  left: 30px;
+}
+/* Web Part C */
+.btn1 {
+  background-color: #ffc045 !important;
+  font-size: 2.5rem !important;
+  letter-spacing: 1.5px;
+}
+.ch1 {
+  font-size: 5rem;
+  letter-spacing: 2px;
+}
+.cp1 {
+  font-size: 1.6rem;
+}
+/* Web Part D */
+.dh1 {
+  font-size: 3.7rem;
+}
+.dp1 {
+  font-size: 1.6rem;
+}
+.center_burger{
+  transform: scale(0.9);
+  margin-top: -0.5rem;
+}
+.db1 {
+  font-size: 1.6rem !important;
+  padding: 10px 25px !important;
+  background-color: #bf2222 !important;
+  color: white !important;
+  letter-spacing: 1px;
+}
+/* Web Part E */
+.pe {
+  box-shadow: 10px 10px 15px #dbdbdb;
+}
+.elh1 {
+  font-size: 2.9rem;
+}
+.elh2 {
+  font-size: 4.1rem;
+}
+.dlp1 {
+  font-size: 2rem;
+}
+.dot {
+  padding: 3px;
+  padding-bottom: 15px;
+}
+.pf {
+  margin-top: 70px !important;
+  position: relative;
+}
+.ft {
+  margin-top: 40px !important;
+}
+.fh1 {
+  font-size: 2.9rem;
+}
+.fh2 {
+  font-size: 5rem;
+}
+.fbtn1 {
+  font-size: 1.6rem !important;
+  letter-spacing: 1.5px !important;
+}
+.btl {
+  margin-left: auto !important;
+}
+.tables {
+  font-size: 20px !important;
+}
+.form-control{
+  font-size: 2rem !important;
+}
+.sbr {
+  margin: -200px 0px 0px 0px !important;
+  padding: 0% !important;
+}
+/* Footer Parts */
+.pg {
+  background-image: url(Images/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gi1 {
+  font-size: 30px !important;
+  margin-left: 2px;
+}
+.gi2 {
+  font-size: 25px !important;
+}
+.gt1 {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  margin-left: 20px;
+}
+.gt2 {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  margin-left: 15px;
+}
+.gp1 {
+  font-size: 1.6rem;
+}
+.gb {
+  margin-top: 100px !important;
+}
+.gltl {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+.gbr {
+  margin-right: 25px;
+}
+.gbi1,
+.gbi2,
+.gbi3,
+.gbi4 {
+  font-size: 20px !important;
+  background-color: white;
+  border-radius: 50%;
+  color: #3d2514;
+  margin-right: 10px !important;
+  padding: 5px 6.4px;
+}
+.gbi2{
+  padding: 5px 9px !important;
+}
